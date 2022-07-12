@@ -29,7 +29,7 @@ var feedback = function (res) {
     addImg(".status", content);
   }
 };
-// for jseedav.com
+
 new Imgur({
   clientid: "82592c12c4ed121", //You can change this ClientID
   callback: feedback,
